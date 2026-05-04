@@ -26,7 +26,7 @@ export default function App() {
       <ScrollToTop />
       <div className="min-h-screen bg-black text-white selection:bg-racing-red flex flex-col">
         <Navbar />
-        <main className="flex-grow pt-20">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

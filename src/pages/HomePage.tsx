@@ -24,9 +24,14 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative pt-32 pb-40 px-6 overflow-hidden">
+      <section 
+        className="relative pt-32 pb-40 px-6 overflow-hidden bg-cover bg-center"
+        style={{ backgroundImage: "url('/hero-bg.png')" }}
+      >
+        {/* Dark overlay for readability */}
+        <div className="absolute inset-0 z-0 bg-black/70" />
         {/* Mesh Gradient + Flicker */}
-        <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-racing-red/20 via-black to-black animate-flicker" />
+        <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-racing-red/40 via-black/60 to-black/90 animate-flicker" />
         
         <div className="relative max-w-7xl mx-auto z-10 text-center md:text-left">
           <motion.h1 

@@ -45,8 +45,8 @@ export default function ServicePage() {
   }
 
   return (
-    <div className="min-h-screen pt-20">
-      <div className="relative py-20 px-6 text-center overflow-hidden">
+    <div className="min-h-screen">
+      <div className="relative pt-32 pb-20 px-6 text-center overflow-hidden">
         {/* Mesh Gradient Background */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-racing-red rounded-full blur-[128px] opacity-20" />
         

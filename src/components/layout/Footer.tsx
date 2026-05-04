@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="py-20 bg-black border-t border-white/10 mt-auto text-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
         <div>
-            <h3 className="font-display font-bold text-lg mb-4">ALEXANDRIA TIRE & LUBE</h3>
+            <img src="/atl new logo.jpeg" alt="Alexandria Tire & Lube" className="h-16 w-auto mb-4" />
             <p className="text-gray-400 mb-4">1776 Jackson St, Alexandria, LA</p>
             <p className="text-gray-400">Mon-Thu: 8am-5pm | Fri: 8am-4pm</p>
             <a href="#" className="mt-4 inline-flex items-center gap-2 hover:text-racing-red"><Facebook size={20}/> Connect with us</a>

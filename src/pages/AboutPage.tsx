@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-20">
+    <div className="max-w-7xl mx-auto px-6 pt-32 pb-20">
       <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tighter leading-none mb-12">
         ABOUT <span className="text-racing-red">US</span>
       </h1>

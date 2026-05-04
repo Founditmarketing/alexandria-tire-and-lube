@@ -2,7 +2,7 @@ import { Phone, MapPin, Clock } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-20">
+    <div className="max-w-7xl mx-auto px-6 pt-32 pb-20">
       <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tighter leading-none mb-12 text-racing-red">CONTACT US</h1>
       <div className="grid md:grid-cols-2 gap-12">
         <div className="bg-gray-950 p-8 border border-white/10">
