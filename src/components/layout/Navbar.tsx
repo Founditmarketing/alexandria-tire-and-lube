@@ -32,10 +32,9 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex gap-8 font-medium">
+        <div className="hidden md:flex gap-8 font-medium items-center">
           <Link to="/" className="hover:text-racing-red transition-colors">Home</Link>
           <Link to="/about" className="hover:text-racing-red transition-colors">About Us</Link>
-          <a href="/#gallery" className="hover:text-racing-red transition-colors">Gallery</a>
           <div className="relative">
             <button 
               className="hover:text-racing-red transition-colors flex items-center gap-1"
@@ -53,6 +52,7 @@ export default function Navbar() {
               </div>
             )}
           </div>
+          <a href="/#gallery" className="hover:text-racing-red transition-colors">Gallery</a>
           <Link to="/contact" className="hover:text-racing-red transition-colors">Contact</Link>
         </div>
 

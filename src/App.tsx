@@ -20,6 +20,12 @@ function ScrollToTop() {
   return null;
 }
 
+function ConditionalFooter() {
+  const { pathname } = useLocation();
+  if (pathname === '/contact') return null;
+  return <Footer />;
+}
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -34,7 +40,7 @@ export default function App() {
             <Route path="/:serviceSlug" element={<ServicePage />} />
           </Routes>
         </main>
-        <Footer />
+        <ConditionalFooter />
       </div>
     </BrowserRouter>
   );
