@@ -3,11 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Alexandria Tire &amp; Lube - Professional Auto Service &amp; Tire Installation</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Professional tire installation, oil changes, and automotive services in Alexandria, Louisiana. Expert mechanics providing quality auto care for your vehicle. Call (318) 201-0014." />
+    <link rel="canonical" href="https://alexandria-tire-and-lube.vercel.app/" />
+    <link rel="preconnect" href="https://alexandria-tire-and-lube.vercel.app" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Alexandria Tire &amp; Lube - Professional Auto Service &amp; Tire Installation" />
+    <meta property="og:description" content="Trusted tire installation, oil changes, and auto services in Alexandria, LA. Serving Alexandria, Pineville, Ball, Boyce, and Woodworth. Call (318) 201-0014." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alexandria-tire-and-lube.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Alexandria Tire & Lube",
+        "url": "https://alexandria-tire-and-lube.vercel.app",
+        "telephone": "(318) 201-0014",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1776 Jackson St",
+          "addressLocality": "Alexandria",
+          "addressRegion": "LA",
+          "postalCode": "71301"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "31.3112",
+          "longitude": "-92.4426"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "08:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday"],
+            "opens": "08:00",
+            "closes": "16:00"
+          }
+        ],
+        "areaServed": ["Alexandria", "Pineville", "Ball", "Boyce", "Woodworth"],
+        "sameAs": [
+          "https://www.facebook.com/groups/2080825445622563"
+        ],
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["h1", ".contact-info"]
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- AI Crawl Context (pre-hydration, parsed by LLMs and non-JS crawlers) -->
+    <div id="llm-context" style="display:none;" aria-hidden="true">
+      Alexandria Tire &amp; Lube — Professional tire installation, oil changes, rotations, alignments, balancing, and auto repair in Alexandria, Louisiana. Serving Alexandria, Pineville, Ball, Boyce, and Woodworth. Address: 1776 Jackson St, Alexandria, LA 71301. Phone: (318) 201-0014. Hours: Mon–Thu 8am–5pm, Fri 8am–4pm.
+    </div>
+
+    <div id="root"><h1>Alexandria Tire &amp; Lube - Your Trusted Auto Service Center</h1></div>
+    <script type="module" src="/src/main.tsx" defer></script>
   </body>
 </html>
-
